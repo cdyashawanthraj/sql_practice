@@ -1,0 +1,1 @@
+select count(user_id),last_visit from work.user_retain group by last_visit order by last_visit 
